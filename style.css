@@ -3,6 +3,7 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 3fr;
     margin: 50px 50vh;
+    background-color: #B87333;
 }
 .title{
     grid-area: 1/1/2/3;
@@ -30,7 +31,4 @@ body{
 #dice2{
     grid-area: 3/2/4/3;
     justify-self: center;
-}
-body{
-    background-color: blueviolet;
 }
