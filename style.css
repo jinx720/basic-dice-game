@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 3fr;
+    grid-template-rows: 1fr 0.5fr 3fr 20px;
     margin: 50px 50vh;
     background-color: #B87333;
 }
@@ -30,5 +30,9 @@ body{
 }
 #dice2{
     grid-area: 3/2/4/3;
+    justify-self: center;
+}
+button{
+    grid-area: 4/1/5/3;
     justify-self: center;
 }
