@@ -1,7 +1,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 3fr;
+    grid-template-rows: 1fr 0.5fr 3fr 20px;
     margin: 50px 50vh;
     background-color: #B87333;
 }
